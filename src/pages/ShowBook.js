@@ -16,7 +16,7 @@ err.info=fet
 }
 
 let {data,error}=useSWR(`https://vast-tan-bandicoot-yoke.cyclic.app/books/${id}`,fetcher);
-console.log(data,"useSWRID",error);
+//console.log(data,"useSWRID",error);
 
 // React.useEffect(()=>{
 // fetch(`https://mern-project.spiritual-wisdo.repl.co/books/${id}`).then(e=>e.json())
